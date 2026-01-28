@@ -87,6 +87,22 @@ h3 {
     margin: 10px 0;
 }
 
+/* Contact Section */
+#contact {
+    padding: 20px;
+    background-color: white;
+    margin: 20px 0;
+}
+
+#contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contact ul li {
+    margin: 10px 0;
+}
+
 /* Footer */
 footer {
     background-color: #333;
