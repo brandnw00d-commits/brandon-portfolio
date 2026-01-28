@@ -22,7 +22,7 @@ a:hover {
 
 /* Header and Navigation */
 header {
-    background-color: #4CAF50;
+    background-color: #333; /* Black color */
     color: white;
     padding: 10px 0;
     text-align: center;
