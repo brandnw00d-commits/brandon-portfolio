@@ -46,7 +46,7 @@ nav ul li a:hover {
 
 /* About Me Section with Background Image */
 #about-me {
-    background-image: url('brandon.jpg'); /* Background image URL */
+    background-image: url('images/your-brandon.jpg'); /* Background image URL */
     background-size: cover;
     background-position: center;
     color: white;
