@@ -1,95 +1,78 @@
-/* Basic Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Body Styles */
+/* Global styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
     line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
 }
 
-/* Header Styles */
+h1, h2 {
+    color: #333;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header and Navigation */
 header {
-    background-color: #000; /* Black header */
+    background-color: #4CAF50;
     color: white;
-    padding: 20px;
+    padding: 10px 0;
     text-align: center;
 }
 
-header h1 {
-    margin: 0;
-}
-
-nav ul {
+header nav ul {
     list-style: none;
     padding: 0;
 }
 
-nav ul li {
+header nav ul li {
     display: inline;
-    margin-right: 20px;
+    margin: 0 15px;
 }
 
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-}
-
-/* About Me Section with Background Image */
-#about-me {
-    background-image: url('C:\Users\DELL\Desktop\Rems\Brandon\brandon.jpg'); /* Background image URL */
-    background-size: cover;
-    background-position: center;
-    color: white;
-    padding: 40px;
-    border-radius: 8px;
-    text-align: center;
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: 0.9; /* Slight transparency for readability */
-}
-
-#about-me h2 {
-    font-size: 32px;
-    margin-bottom: 15px;
-}
-
-#about-me p {
-    font-size: 18px;
-    font-weight: normal;
-    max-width: 800px; /* To avoid text stretching across too much space */
-}
-
-/* Section Styles */
-section {
+/* About Section */
+#about {
     padding: 20px;
-    margin: 20px 0;
     background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-section h2 {
-    color: black; /* Black for section titles */
-}
-
-/* Footer Styles */
-footer {
     text-align: center;
-    padding: 10px;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+/* Projects Section */
+#projects {
+    background-color: #e9ecef;
+    padding: 20px;
+}
+
+#projects ul {
+    list-style: none;
+    padding: 0;
+}
+
+#projects ul li {
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
     background-color: #333;
     color: white;
+    text-align: center;
+    padding: 10px 0;
     position: fixed;
     bottom: 0;
     width: 100%;
